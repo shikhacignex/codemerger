@@ -1,0 +1,77 @@
+Manifest-Version: 1.0
+Class-Path: . EtlifeUATSSO_lib/[Commons]-commons.httpclient.jar Etlife
+ UATSSO_lib/accessors-smart-1.1.jar EtlifeUATSSO_lib/activation.jar Et
+ lifeUATSSO_lib/android-json-0.0.20131108.vaadin1.jar EtlifeUATSSO_lib
+ /antlr-2.7.7.jar EtlifeUATSSO_lib/asm-5.0.3.jar EtlifeUATSSO_lib/aspe
+ ctjweaver-1.8.9.jar EtlifeUATSSO_lib/assertj-core-2.6.0.jar EtlifeUAT
+ SSO_lib/bson-3.4.2.jar EtlifeUATSSO_lib/classmate-1.3.3.jar EtlifeUAT
+ SSO_lib/commons-beanutils-1.9.2.jar EtlifeUATSSO_lib/commons-cli-1.0.
+ jar EtlifeUATSSO_lib/commons-codec-1.10.jar EtlifeUATSSO_lib/commons-
+ collections-3.2.2.jar EtlifeUATSSO_lib/commons-csv-1.0.jar EtlifeUATS
+ SO_lib/commons-dbcp-1.2.2.jar EtlifeUATSSO_lib/commons-email-1.3.3.ja
+ r EtlifeUATSSO_lib/commons-io-2.4.jar EtlifeUATSSO_lib/commons-lang3-
+ 3.4.jar EtlifeUATSSO_lib/commons-logging-1.1.1.jar EtlifeUATSSO_lib/c
+ ommons-pool-1.3.jar EtlifeUATSSO_lib/dom4j-1.6.1.jar EtlifeUATSSO_lib
+ /evo-inflector-1.2.1.jar EtlifeUATSSO_lib/hamcrest-core-1.3.jar Etlif
+ eUATSSO_lib/hamcrest-library-1.3.jar EtlifeUATSSO_lib/hibernate-commo
+ ns-annotations-5.0.1.Final.jar EtlifeUATSSO_lib/hibernate-core-5.0.12
+ .Final.jar EtlifeUATSSO_lib/hibernate-entitymanager-5.0.12.Final.jar 
+ EtlifeUATSSO_lib/hibernate-jpa-2.1-api-1.0.0.Final.jar EtlifeUATSSO_l
+ ib/hibernate-validator-5.3.4.Final.jar EtlifeUATSSO_lib/hsqldb-2.3.3.
+ jar EtlifeUATSSO_lib/httpclient-4.5.2.jar EtlifeUATSSO_lib/httpcore-4
+ .4.4.jar EtlifeUATSSO_lib/jackson-annotations-2.8.0.jar EtlifeUATSSO_
+ lib/jackson-core-2.8.7.jar EtlifeUATSSO_lib/jackson-databind-2.8.7.ja
+ r EtlifeUATSSO_lib/jandex-2.0.0.Final.jar EtlifeUATSSO_lib/javassist-
+ 3.21.0-GA.jar EtlifeUATSSO_lib/javax.transaction-api-1.2.jar EtlifeUA
+ TSSO_lib/jboss-logging-3.3.0.Final.jar EtlifeUATSSO_lib/jcl-over-slf4
+ j-1.7.24.jar EtlifeUATSSO_lib/json-path-2.2.0.jar EtlifeUATSSO_lib/js
+ on-smart-2.2.1.jar EtlifeUATSSO_lib/jsonassert-1.4.0.jar EtlifeUATSSO
+ _lib/jul-to-slf4j-1.7.24.jar EtlifeUATSSO_lib/junit-4.12.jar EtlifeUA
+ TSSO_lib/log4j-over-slf4j-1.7.24.jar EtlifeUATSSO_lib/logback-classic
+ -1.1.11.jar EtlifeUATSSO_lib/logback-core-1.1.11.jar EtlifeUATSSO_lib
+ /mail.jar EtlifeUATSSO_lib/mockito-core-1.10.19.jar EtlifeUATSSO_lib/
+ mongodb-driver-core-3.4.2.jar EtlifeUATSSO_lib/objenesis-2.1.jar Etli
+ feUATSSO_lib/poi-3.14.jar EtlifeUATSSO_lib/poi-ooxml-3.14-20160307.ja
+ r EtlifeUATSSO_lib/poi-ooxml-schemas-3.14-20160307.jar EtlifeUATSSO_l
+ ib/postgresql-9.4.1212.jre7.jar EtlifeUATSSO_lib/slf4j-api-1.7.24.jar
+  EtlifeUATSSO_lib/snakeyaml-1.17.jar EtlifeUATSSO_lib/spring-aop-4.3.
+ 7.RELEASE.jar EtlifeUATSSO_lib/spring-aspects-4.3.7.RELEASE.jar Etlif
+ eUATSSO_lib/spring-beans-4.3.7.RELEASE.jar EtlifeUATSSO_lib/spring-bo
+ ot-1.5.2.RELEASE.jar EtlifeUATSSO_lib/spring-boot-autoconfigure-1.5.2
+ .RELEASE.jar EtlifeUATSSO_lib/spring-boot-starter-1.5.2.RELEASE.jar E
+ tlifeUATSSO_lib/spring-boot-starter-aop-1.5.2.RELEASE.jar EtlifeUATSS
+ O_lib/spring-boot-starter-data-jpa-1.5.2.RELEASE.jar EtlifeUATSSO_lib
+ /spring-boot-starter-data-mongodb-1.5.2.RELEASE.jar EtlifeUATSSO_lib/
+ spring-boot-starter-data-rest-1.5.2.RELEASE.jar EtlifeUATSSO_lib/spri
+ ng-boot-starter-jdbc-1.5.2.RELEASE.jar EtlifeUATSSO_lib/spring-boot-s
+ tarter-logging-1.5.2.RELEASE.jar EtlifeUATSSO_lib/spring-boot-starter
+ -security-1.5.2.RELEASE.jar EtlifeUATSSO_lib/spring-boot-starter-test
+ -1.5.2.RELEASE.jar EtlifeUATSSO_lib/spring-boot-starter-tomcat-1.5.2.
+ RELEASE.jar EtlifeUATSSO_lib/spring-boot-starter-web-1.5.2.RELEASE.ja
+ r EtlifeUATSSO_lib/spring-boot-starter-websocket-1.5.2.RELEASE.jar Et
+ lifeUATSSO_lib/spring-boot-test-1.5.2.RELEASE.jar EtlifeUATSSO_lib/sp
+ ring-boot-test-autoconfigure-1.5.2.RELEASE.jar EtlifeUATSSO_lib/sprin
+ g-context-4.3.7.RELEASE.jar EtlifeUATSSO_lib/spring-core-4.3.7.RELEAS
+ E.jar EtlifeUATSSO_lib/spring-data-commons-1.13.1.RELEASE.jar EtlifeU
+ ATSSO_lib/spring-data-jpa-1.11.1.RELEASE.jar EtlifeUATSSO_lib/spring-
+ data-mongodb-1.10.1.RELEASE.jar EtlifeUATSSO_lib/spring-data-rest-cor
+ e-2.6.1.RELEASE.jar EtlifeUATSSO_lib/spring-data-rest-webmvc-2.6.1.RE
+ LEASE.jar EtlifeUATSSO_lib/spring-expression-4.3.7.RELEASE.jar Etlife
+ UATSSO_lib/spring-hateoas-0.23.0.RELEASE.jar EtlifeUATSSO_lib/spring-
+ jdbc-4.3.7.RELEASE.jar EtlifeUATSSO_lib/spring-messaging-4.3.7.RELEAS
+ E.jar EtlifeUATSSO_lib/spring-orm-4.3.7.RELEASE.jar EtlifeUATSSO_lib/
+ spring-plugin-core-1.2.0.RELEASE.jar EtlifeUATSSO_lib/spring-test-4.3
+ .7.RELEASE.jar EtlifeUATSSO_lib/spring-tx-4.3.7.RELEASE.jar EtlifeUAT
+ SSO_lib/spring-web-4.3.7.RELEASE.jar EtlifeUATSSO_lib/spring-webmvc-4
+ .3.7.RELEASE.jar EtlifeUATSSO_lib/spring-websocket-4.3.7.RELEASE.jar 
+ EtlifeUATSSO_lib/tomcat-embed-core-8.5.11.jar EtlifeUATSSO_lib/tomcat
+ -embed-el-8.5.11.jar EtlifeUATSSO_lib/tomcat-embed-websocket-8.5.11.j
+ ar EtlifeUATSSO_lib/tomcat-jdbc-8.5.11.jar EtlifeUATSSO_lib/tomcat-ju
+ li-8.5.11.jar EtlifeUATSSO_lib/validation-api-1.1.0.Final.jar EtlifeU
+ ATSSO_lib/xmlbeans-2.6.0.jar EtlifeUATSSO_lib/spring-security-config-
+ 4.2.2.RELEASE.jar EtlifeUATSSO_lib/spring-security-core-4.2.2.RELEASE
+ .jar EtlifeUATSSO_lib/spring-security-web-4.2.2.RELEASE.jar EtlifeUAT
+ SSO_lib/spring-security-kerberos-core-1.0.1.RELEASE.jar EtlifeUATSSO_
+ lib/spring-security-kerberos-web-1.0.1.RELEASE.jar EtlifeUATSSO_lib/spring-security-kerberos-web-1.0.0.RELEASE EtlifeUATSSO_lib/spring-security-kerberos-core-1.0.0.RELEASE EtlifeUATSSO_lib/spring-security-kerberos-client-1.0.1.RELEASE EtlifeUATSSO_lib/spring-security-core-5.0.0.RELEASE
+Main-Class: com.edelweiss.bpri.Application
+
