@@ -9,7 +9,7 @@ var HomeController = angularApp
 
 			$scope.alfrescoContext = UtilService.alfrescoContextRoot();
 			$scope.token = sessionStorage.getItem('token');
-
+alert("HomeController controller page load");
 			// set initial index
 			// Using variable to control the display
 			// ng-show="" in HTML
@@ -31,6 +31,7 @@ var HomeController = angularApp
 				 * $scope.presentationCount) {
 				 * $("#pstViewButton").addClass(
 				 * "disable-view-more-button"); } } } else if (item ===
+				 
 				 * 'video') { if ($scope.loadIndexVideo <
 				 * $scope.videoCount) { $scope.loadIndexVideo += 4; if
 				 * ($scope.loadIndexVideo >= $scope.videoCount) {
@@ -38,6 +39,7 @@ var HomeController = angularApp
 				 * "disable-view-more-button"); }
 				 *  } } else
 				 */
+				 alert("HomeController controller ViewMore");
 				if (item === 'document') {
 					if ($scope.loadIndexDocument < $scope.documentCount) {
 						$scope.loadIndexDocument += 4;
@@ -50,13 +52,16 @@ var HomeController = angularApp
 
 			};
 
-			$scope.onFeedbackSubmitCommentClick = function() {
+			$scope.onFeedbackSubmitCommentClick = function() 
+			 alert("HomeController controller onFeedbackSubmitCommentClick");
 				if (sessionStorage.getItem('token')) {
+					alert("HomeController controller onFeedbackSubmitCommentClck session");
 					var text = $scope.feedbackText;
 					var feedbackType = $scope.feedbackDropdownSelectedOption.name;
 					if (text != null || text != undefined || text != ''
 						|| text != "") {
 						var urlOnPage = $location;
+						alert("HomeController controller onFeedbackSubmitCommentClck urlOnPage");
 						var userId = sessionStorage.getItem('userId');
 						var method = 'post';
 						var url = UtilService.contextRoot()
@@ -93,7 +98,9 @@ var HomeController = angularApp
 					$scope.feedbackDropdownSelectedOption = $scope.feedbackDropdownOptions[0];
 					document.getElementById("#myModal");
 				} else {
+				alert("HomeController controller onFeedbackSubmitCommentClck else block");
 					state.go('login');
+					
 				}
 			}
 
@@ -106,6 +113,7 @@ var HomeController = angularApp
 			}
 
 			var initilizeFeedbackDropdown = function() {
+			alert("HomeController controller initilizeFeedbackDropdown");
 				$scope.feedbackDropdownOptions = [ {
 					name : "I like something",
 					id : 1
@@ -120,6 +128,7 @@ var HomeController = angularApp
 			};
 
 			$scope.initApp = function() {
+			alert("HomeController controller initAPP");
 				initilizeFeedbackDropdown();
 
 			};
@@ -144,14 +153,14 @@ var HomeController = angularApp
 
 			$scope.SalesProductsOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'SalesProductsOnclick'
 				});
 			}
 			/*$scope.OperationsAndServicesOnclick = function() {
 
-						// alert("I am inside the SalesProductsOnclick");
+						alert("I am inside the SalesProductsOnclick");
 						$state.go('filter-search', {
 							term : 'OperationsAndServicesOnclick'
 						});
@@ -160,35 +169,35 @@ var HomeController = angularApp
 
 			$scope.OperationsAndServicesOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-searchos', {
 					term : 'OperationsAndServicesOnclick'
 				});
 			}
 			$scope.ManageInvestmentsOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'ManageInvestmentsOnclick'
 				});
 			}
 			$scope.AdminAndFacilitiesOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'AdminAndFacilitiesOnclick'
 				});
 			}
 			$scope.RiskManagementOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'RiskManagementOnclick'
 				});
 			}
 			$scope.FinanceOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'FinanceOnclick'
 				});
@@ -197,28 +206,28 @@ var HomeController = angularApp
 
 			$scope.HumanResourcesOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'HumanResourcesOnclick'
 				});
 			}
 			$scope.InformationTechnologyOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'InformationTechnologyOnclick'
 				});
 			}
 			$scope.LegalAndComplianceOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'LegalAndComplianceOnclick'
 				});
 			}
 			$scope.LearningAndDevelopmentOnclick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('filter-search', {
 					term : 'LearningAndDevelopmentOnclick'
 				});
@@ -226,7 +235,7 @@ var HomeController = angularApp
 
 			$scope.mostReadOnClick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('mostRead', {
 					term : 'mostReadOnClick'
 				});
@@ -234,7 +243,7 @@ var HomeController = angularApp
 
 			$scope.LCDocOnClick = function() {
 
-				// alert("I am inside the SalesProductsOnclick");
+				alert("I am inside the SalesProductsOnclick");
 				$state.go('LCDoc', {
 					term : 'LCDocOnClick'
 				});
@@ -248,6 +257,7 @@ var HomeController = angularApp
 			 **********************************************************/
 
 			var getPropertiesOf = function(docType) {
+			alert("HomeController controller getPropertiesOf");
 				var details = new Array();
 				for (var i = 0; i < docType.length; i++) {
 					var doc = docType[i];
@@ -304,6 +314,7 @@ var HomeController = angularApp
 			}
 
 			var setDetailsOfEachItem = function(segregatedByMime) {
+			alert("HomeController controller setDetailsOfEachItem");
 				// count set on UI
 				/*
 				 * $scope.presentationCount =
@@ -323,6 +334,7 @@ var HomeController = angularApp
 			}
 
 			var segregateDataByMimeType = function(listOfItems) {
+			alert("HomeController controller segregateDataByMimeType");
 				var segregatedByMime = new Array();
 				/*
 				 * var presentation = new Array(); var video = new
@@ -351,11 +363,10 @@ var HomeController = angularApp
 			}
 
 			var getAllItems = function() {
-
-				var method = 'post';
-				var url = UtilService.alfrescoContextRoot()
+				alert("HomeController controller getAllItems");
+				var actionurl = UtilService.alfrescoContextRoot()
 				+ "/alfresco/api/-default-/public/search/versions/1/search";
-				var body = {
+				var payload = {
 						"query" : {
 							"query" : "SITE:'" + siteId + "' AND (*)", // \"corporate-controller-bpri\"
 							"language" : "afts"
@@ -394,43 +405,55 @@ var HomeController = angularApp
 								'defaultFieldName' : '\"/\"'
 						}
 				};
-//				check this or write an interceptor for this
-				var headers = {
-						Authorization: 'withCredentials : true' 						
 
-				}
+				
 
-				$http({
-					method : method,
-					url : url,
-					headers : headers,
-					data : body
-				})
-				.then(
-						function successCallback(response) {
-							if (response.status === 200) {
-								if (response.data.list.entries.length > 0) {
-									var listOfItems = response.data.list.entries;
-									var segregatedByMime = segregateDataByMimeType(listOfItems)[0];
-									setDetailsOfEachItem(segregatedByMime);
-								} else {
-									console
-									.log('0 items in repository');
-								}
+				
+				$.ajax({
+
+				    url : actionurl,
+				    type : 'POST',
+				    xhrFields: {
+				        'withCredentials': true //Tell browser to provide credentials
+				    },
+					alert("HomeController controller getAllItems1");
+				    data: payload,
+				    crossDomain: true,
+				    success : function(data) {			
+				    	console.log('data');
+				    	if (response.status === 200) {
+						alert("HomeController controller getAllItems1 success" );
+							if (response.data.list.entries.length > 0) {
+								var listOfItems = response.data.list.entries;
+								var segregatedByMime = segregateDataByMimeType(listOfItems)[0];
+								setDetailsOfEachItem(segregatedByMime);
 							} else {
 								console
-								.log(
-										'response other than 200 status code',
-										response.status);
+								.log('0 items in repository');
 							}
-						}, function errorCallback(response) {
-							console.log('error');
-							$state.go('login');
-						});
+						} else {
+						alert("HomeController controller getAllItems1 else");
+							console
+							.log(
+									'response other than 200 status code',
+									response.status);
+						}
+				    	
+				    },
+				    error : function(request,error)
+				    {
+					alert("HomeController controller getAllItems1 error");
+				    	console.log('error');
+						$state.go('login');
+				    }
+				  });
+				
+				
 
 			}
 
 			$scope.open = function() {
+			alert("HomeController controller scope open");
 				console.log('opening pop up');
 				var modalInstance = $modal.open({
 					templateUrl : 'html/mostRead.html',
@@ -445,7 +468,9 @@ var HomeController = angularApp
 			console.log("popup open")
 
 			var init = function() {
+			alert("HomeController controller init fucntion getll calling");
 				getAllItems();
+				alert("HomeController controller init end");
 				/*
 				 * $window.open("#mostRead","popup","width=850,height=750,left=100,top=30");
 				 * $('#overlay').modal('open');
@@ -459,13 +484,8 @@ var HomeController = angularApp
 						console.log("header shown");
 						$("#headerId").show();
 						$(this).scrollTop(0);
-						if (sessionStorage.getItem('token')) {
+						alert("HomeController controller ready");
 							init();
-						} else {
-							sessionStorage.setItem('redirectUrl',
-									$location.absUrl());
-							console.log("View Unauthenticated");
-							$state.go('login');
-						}
+						
 					});
 		});
